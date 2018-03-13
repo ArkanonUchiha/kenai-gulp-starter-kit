@@ -1,0 +1,51 @@
+{
+  "name": "kenai-gulp-starter-kit",
+  "version": "1.0.0",
+  "description": "Kit de inicio para desarrollo web con HTML, SCSS, JS, Módulos EcmaScript y PHP automatizado con Gulp",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "start": "gulp proxy",
+    "front": "gulp",
+    "img": "gulp img",
+    "uncss": "gulp uncss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonmircha/kenai-gulp-starter-kit.git"
+  },
+  "keywords": [
+    "jonmircha",
+    "kenai devtools",
+    "devtools",
+    "starter kit",
+    "gulp",
+    "web components",
+    "php"
+  ],
+  "author": "Jonathan MirCha <jonmircha@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonmircha/kenai-gulp-starter-kit/issues"
+  },
+  "homepage": "https://github.com/jonmircha/kenai-gulp-starter-kit#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.23.6",
+    "browserify": "^16.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uncss": "^1.0.6",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
