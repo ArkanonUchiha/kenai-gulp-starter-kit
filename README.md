@@ -60,7 +60,7 @@ Es el directorio donde tendremos la versión para publicar del proyecto con todo
 * :page_facing_up: **`gulpfile.babel.js`**: Contiene la programación JS de las tareas gulp de este kit de inicio con soporte de módulos ECMAScript.
 * :page_facing_up: **`README.md`**: Contiene la documentación de este kit.
 
-**[:arrow_upper_left: regresar al índice](#kenai-npm-starter-kit)**
+**[:arrow_upper_left: regresar al índice](#kenai-gulp-starter-kit)**
 
 ## Scripts NPM:
 
@@ -74,4 +74,4 @@ Recuerda que todos los comandos de NPM se corren desde la terminal con **`npm ru
 * :heavy_dollar_sign: **`uncss`**: Remueve el código CSS innecesario del proyecto, tomando en cuenta la configuración de la variable **`uncssOptions`** del archivo **`gulpfile.babel.js`**.
 
 
-**[:arrow_upper_left: regresar al índice](#kenai-npm-starter-kit)**
+**[:arrow_upper_left: regresar al índice](#kenai-gulp-starter-kit)**
