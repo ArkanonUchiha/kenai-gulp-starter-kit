@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gulp proxy",
     "front": "gulp",
-    "img": "gulp img",
+    "media": "gulp media",
     "uncss": "gulp uncss"
   },
   "repository": {

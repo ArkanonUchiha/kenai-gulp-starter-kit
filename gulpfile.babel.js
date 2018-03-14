@@ -75,8 +75,8 @@ gulp.task('js', () => {
     .pipe(server.stream({ match: '**/*.js' }))
 })
 
-gulp.task('img', () => {
-  gulp.src('./src/img/**/*.{png,jpg,gif,svg,ico}')
+gulp.task('media', () => {
+  gulp.src('./src/img/**/*.{png,jpg,jpeg,gif,svg,ico,webp,mp4,mp3}')
     .pipe(imagemin(imageminOptions))
     .pipe(gulp.dest('./public/img'))
 })
