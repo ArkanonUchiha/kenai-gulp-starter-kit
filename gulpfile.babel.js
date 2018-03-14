@@ -76,7 +76,7 @@ gulp.task('js', () => {
 })
 
 gulp.task('img', () => {
-  gulp.src('./src/img/**/*.{png,jpg,gif,svg}')
+  gulp.src('./src/img/**/*.{png,jpg,gif,svg,ico}')
     .pipe(imagemin(imageminOptions))
     .pipe(gulp.dest('./public/img'))
 })
