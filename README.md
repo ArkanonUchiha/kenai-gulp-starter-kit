@@ -70,7 +70,7 @@ Recuerda que todos los comandos de NPM se corren desde la terminal con **`npm ru
 
 * :heavy_dollar_sign: **`start`**: Levanta un servidor web proxy live reload con Browser Sync para poder compilar archivos PHP, HTML, SCSS y JS con soporte de módulos ECMAScript. El servidor levanta tomando en cuenta la configuración de la variable **`proxyOptions`** del archivo **`gulpfile.babel.js`**.
 * :heavy_dollar_sign: **`front`**: : Levanta un servidor web live reload con Browser Sync para poder compilar archivos HTML, SCSS y JS con soporte de módulos ECMAScript. El servidor levanta tomando en cuenta la configuración de la variable **`serverOptions`** del archivo **`gulpfile.babel.js`**.
-* :heavy_dollar_sign: **`img`**: Optimiza las imágenes del proyecto.
+* :heavy_dollar_sign: **`media`**: Optimiza las imágenes del proyecto y envía los archivos multimedia (png, jpg, jpeg, gif, svg, ico, webp, mp4, mp3) de la carpeta **`./src/img`** a la **`./public/img`**.
 * :heavy_dollar_sign: **`uncss`**: Remueve el código CSS innecesario del proyecto, tomando en cuenta la configuración de la variable **`uncssOptions`** del archivo **`gulpfile.babel.js`**.
 
 
